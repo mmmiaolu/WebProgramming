@@ -1,0 +1,44 @@
+<!--
+Name：Miao Lu
+Project: todoMVC
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<title>todoMVC</title>
+	<meta charset="utf-8" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" name="viewport"/>
+	<link href="./public/todoMVC.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<h1>todo-list</h1>
+	<div id="boundary">
+		<div class="head">
+			<span class="text1">Show:</span>
+			<input type="radio" id="all" name="showForm" value="all"/>
+			<label for="all">ALL</label>
+			<input type="radio" id="doing" name="showForm" value="doing"/>
+			<label for="doing">DOING</label>
+			<input type="radio" id="done" name="showForm" value="done">
+			<label for="done">DONE</label>
+		</div>
+		<div class="add">
+			<input id="todo" type="text" placeholder="to do something" autofocus>
+			<button id="addBtn" class="button" type="button">Add</button>
+			<button id="selAllBtn" class="button" type="button">Select All</button>
+		</div>
+		<div id="list"></div>
+		<div id="bottom">
+			<span id="count">0 items left</span>
+			<button id="delBtn" class="button" type="button">Delete</button>
+		</div>
+		<div class="tail">
+			<span class="text1">Change State:</span>
+			<button id="doingBtn" class="button" type="button">Doing</button>
+			<button id="doneBtn" class="button" type="button">Done</button>
+		</div>
+	</div>
+
+	<script src="./public/model.js"></script>
+	<script src="./public/provider-localStorage.js"></script>
+	<script src="./public/todoMVC.js"></script>
+</body>
+</html>

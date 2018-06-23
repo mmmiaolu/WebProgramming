@@ -1,0 +1,124 @@
+/*
+Name：Miao Lu
+Project: todoMVC
+*/
+body {
+	font-family: Helvetica,Arial,monospace;
+	font-size: 12pt;
+	text-align: center;
+	background-color: #dcd5c5;
+}
+
+h1 {
+	color: #f0811a;
+	font-family: fantasy;
+	font-size: 30pt;
+	text-shadow: 2px 2px gray;
+}
+
+#boundary {
+	background-color: #b6d1e6;
+	width: 94%;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+label {
+	color: #556774;
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+.add {
+	margin-bottom: 20px;
+	height: 40px;
+	text-align: left;
+	width: 92%;
+	margin: auto;
+}
+
+#todo {
+	width: 45%;
+	line-height: 18px;
+}
+
+#addBtn {
+	margin-left: auto;
+}
+
+#selAllBtn {
+	float: right;
+}
+
+#bottom {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	width: 92%;
+	margin: auto;
+	color: #556774;
+}
+
+#delBtn {
+	float: right;
+}
+
+.button {
+	font-family: cursive;
+	font-size: 14pt;
+	height: 22px;
+	background-color: inherit;
+	color: #556774;
+	border: none;
+}
+
+.text1 {
+	color: #ca7628;
+	font-size: 16pt;
+}
+
+.head {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.tail {
+	text-align: left;
+	width: 92%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#doneBtn {
+	float: right;
+	margin-right: 20px;
+}
+
+#doingBtn {
+	float: right;
+}
+
+.item {
+	text-align: left;
+	width: 92%;
+	margin: auto;
+	height: 20px;
+	border: 1px solid #b6d1e6;
+}
+
+.box {
+	height: 12px;
+	vertical-align: center;
+	float: right;
+	margin-right: 5%;
+}
+
+.done {
+	background-color: #9bc1dd;
+}
+
+.doing {
+	background-color: #cfdee9;
+}
